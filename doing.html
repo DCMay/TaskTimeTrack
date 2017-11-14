@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TimeTracker</title>
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/doing.css">
+  <!-- js -->
+  <!-- 引入jquery -->
+  <script>
+    window.$ = window.jQuery = require('./assets/js/libs/jquery-3.2.1.min.js');
+  </script>
+  
+  <!-- 这里是我自己的功能实现  -->
+  <script src="./assets/js/taskRunner.js"></script>
+
+</head>
+
+<body style="-webkit-app-region: drag">
+  <div id="content">
+      <div id="task_title" class="div-inline">
+          <span>
+          </span>
+      </div>
+      <div id="task_time" class="div-inline">
+          00:00:00
+           <!-- 进行编码布局 -->
+      </div>
+      <!-- <div id="btn_pause" class="div-inline" >
+            <img src="D:\timetrack\assets\img\start.png" alt="start" class="btn" >
+      </div> -->
+      <div id="btn_close" class="div-inline">
+            <!-- <img src="D:\timetrack\assets\img\delete2.png" alt="close" class="btn"  > -->
+      </div>
+     
+  </div>
+</body>
+
+</html>
